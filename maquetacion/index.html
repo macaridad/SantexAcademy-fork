@@ -27,6 +27,44 @@
             display: flex;
             justify-content: center;
         }
+        div#impact {
+            background-color: #201b24;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 300px;
+        }
+        .item-stats {
+            margin: 0 10px;
+        }
+        #bg-image{
+            background-image: url(background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 400px;
+        }
+        .card {
+            border-radius: 25px;
+            border-top-left-radius: 0%;
+            margin: 0px 60px 60px;
+        }
+        .footer{
+            background-color: #201b24;
+            justify-content: left;
+            align-items: center;
+            display: flex;
+            padding: 60px;
+        }
+        .footer div{
+            margin-left: 40px;
+            color: white;
+        }
+        a{
+            color: white;
+            text-decoration: solid;
+        }
+        
     </style>
 </head>
 <body>
@@ -50,6 +88,88 @@
         <div id="introduction-actions" style="margin-top: 25px;">
             <button class="redondo">Contactanos -></button>
             <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+        </div>
+    </div>
+    <div id="impact">
+        <div id="impact-text">
+            <div id="impact-text-title"><h2>. Impacto</h2></div>
+            <div id="impact-text-content">Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</div>
+        </div>
+        <div id="impact-stats" style="display: flex; align-items: center;">
+            <div class="item-stats" id="impact-localidades">
+                <div id="impact-localidades-num">58</div>
+                <div id="impact-localidades-text">Localidades</div>
+            </div>
+            <div class="item-stats" id="impact-mentores">
+                <div id="impact-mentores-num">+50</div>
+                <div id="impact-mentores-text">Mentores</div>
+            </div>
+            <div class="item-stats" id="impact-participantes">
+                <div id="impact-participantes-num">301</div>
+                <div id="impact-participantes-text">Participantes</div>
+            </div>
+        </div>
+    </div>
+    <div id="bg-image">
+    </div>
+    <div style="display: flex; align-items: center;">
+        <div>
+            <h2 style="margin: 60px">. Programas</h2>
+            <img src="https://technologywithpurpose.org/wp-content/uploads/2022/11/xacademy-01-600x400.jpg" class="card">
+        </div>
+        <div style="margin: 60px 60px;">
+            <img src="xacademy.svg" height="50px" width="200px">
+            <p>xAcademy es un programa de formación en tecnología llevado adelante por la Fundación Tecnología con Propósito junto a Santex que busca promover un cambio positivo en la comunidad a través de la educación en IT, apuntando a lograr la inserción laboral de personas en el mundo tecnológico.</p>
+            <button class="redondo">Más info --></button>
+        </div>
+    </div>
+    <div style="display: flex; align-items: center;">
+        <div style="margin: 60px 60px;">
+            <h3><b>Robótica educativa: la tecnología del futuro</b></h3>
+            <p>Durante el curso, los alumnos y alumnas a través de la robótica desarrollan la curiosidad, el autodidactismo y las habilidades blandas necesarias para afrontar la revolución tecnológica del siglo XXI.</p>
+            <button class="redondo">Más info --></button>
+        </div>
+        <div>
+            <img src="robotica-educativa-07-600x400.jpg" class="card">
+        </div>
+    </div>
+    <div style="display: flex; align-items: center;">
+        <div>
+            <h2 style="margin: 60px">. Capacitaciones</h2>
+            <img src="estafas-virtuales-04-600x453.jpg" class="card">
+        </div>
+        <div style="margin: 60px 60px;">
+            <h3><b>Estafas virtuales: ¿cómo protegernos?</b></h3>
+            <p>Los canales de comunicación a través de medios digitales cobraron gran protagonismo a partir de la pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de estafas y fraudes virtuales. En esta capacitación vas a aprender diferentes tips y consejos útiles para navegar de manera más segura.</p>
+            <button class="redondo">Más info --></button>
+        </div>
+    </div>
+    <div style="display: flex; align-items: center;">
+        <div style="margin: 60px 60px;">
+            <h3><b>Seguridad informática para infancias</b></h3>
+            <p>¿Navegamos seguros en internet? La propuesta es una charla para niños y niñas donde se brindan herramientas de seguridad y autocuidado digital.</p>
+            <button class="redondo">Más info --></button>
+        </div>
+        <div>
+            <img src="seguridad-informatica-para-infancias-600x398.jpg" class="card">
+        </div>
+    </div>
+    <div class="footer">
+        <div id="footer-logo">
+            <img src="technology-with-purpose-white.svg">
+        </div>
+        <div id="footer-text">Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</div>
+        <div id="footer-nos-cont">
+            <a href="">NOSOTROS</a>
+            <a href="">CONTACTO</a>
+        </div>
+        <div id="footer-prog-cap">
+            <a href="">PROGRAMAS</a>
+            <a href="">CAPACITACIONES</a>
+        </div>
+        <div id="footer-social">
+            <a href="">INSTRAGRAM</a>
+            <a href="">LINKEDIN</a>
         </div>
     </div>
 </body>
